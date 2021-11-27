@@ -1,2 +1,0 @@
-**https://disturbedmindset.github.io/Projects/PROJETO%201/solution/index.html
-**
