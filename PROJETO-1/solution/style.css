@@ -1,0 +1,157 @@
+@import url(https://fonts.google.com/specimen/Karla);
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  body {
+    background-color: #50e22b;
+  }
+  .card {
+    width: 100%;
+    display: inline-block;
+    border: 4px solid red;
+  }
+  .top-section {
+    width: 100px;
+  }
+}
+@media screen and (min-width: 801px) {
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Karla";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h2,
+h4,
+p {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 20;
+}
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+}
+
+.card {
+  width: 600px;
+  height: 450px;
+  box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.top-section {
+  width: 100%;
+  height: 45%;
+  padding: 40px;
+  background-color: rgb(255, 255, 255);
+}
+.bottom-section {
+  width: 100%;
+  height: 55%;
+  color: rgb(255, 255, 255);
+}
+.bottom-left-section {
+  display: grid;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: rgb(42, 178, 175);
+  padding: 40px;
+  float: left;
+}
+
+.bottom-right-section {
+  display: grid;
+  width: 50%;
+  height: 100%;
+
+  vertical-align: top;
+  background-color: rgb(46, 191, 189);
+  padding: 30px;
+}
+.top-section h2 {
+  color: rgb(42, 178, 175);
+  margin-bottom: 20px;
+}
+.top-section h4 {
+  color: rgb(192, 223, 52);
+  padding-bottom: 15px;
+}
+.top-section p {
+  color: rgb(152, 166, 189);
+  line-height: 25px;
+}
+button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(192, 223, 52);
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(192, 223, 52);
+  opacity: 80%;
+  cursor: pointer;
+}
+
+#price {
+  font-weight: 700;
+  font-size: 1.4rem;
+  display: inline;
+  width: 20%;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 10px;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#price-frequency #price {
+  display: inline-block;
+}
+
+#price-frequency {
+  clear: none;
+  width: 80%;
+
+  display: inline;
+  vertical-align: middle;
+  margin: 0px;
+  opacity: 80%;
+  color: rgb(224, 224, 224);
+}
+.price-container {
+  margin: 0;
+  padding: 0px;
+  height: 10px;
+}
+.bottom-right-section ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 20px;
+}
+.bottom-right-section h4 {
+  font-weight: 400;
+}
+.bottom-right-section ul {
+  color: rgb(224, 224, 224);
+  opacity: 80%;
+}
